@@ -2,21 +2,260 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+    .header_txt {
+        margin-top: 200px;
+    }
+    .bottle .bottle_txt .blue_line {
+        font-size: 50px;
+    }
+    .bottle .bottle_txt span, .bottle .bottle_txt p {
+        font-size: 14px;
+    }
+    /* Bottle */
+    .bottle {
+        height: 450px;
+        margin-top: -120px;
+    }
+    .bottle .bottle_txt {
+        margin-top: 200px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    header {
+        background: url("../img/header.jpg") no-repeat center;
+        background-color: #fafcfc;
+        -webkit-background-size: contain;
+        background-size: contain;
+        height: 830px;
+        width:100%;
+    }
+
+    .header_txt .left_line h2 {
+        font-size: 48px;
+    }
+    .header_txt .left_line h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .header_txt p {
+        margin-top: 25px;
+    }
+    .header_txt .order_now {
+        width: 150px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .header_txt .watch_txt {
+        padding-left: 180px;
+        margin-top: 46px;
+        font-size: 14px;
+    }
+/* Bottle */
+    .bottle {
+        height: 400px;
+        margin-top: -85px;
+    }
+    .bottle .bottle_txt {
+        margin-top: 185px;
+    }
+    .bottle .bottle_txt .blue_line {
+        padding-left: 10px;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .bottle .bottle_txt span {
+        font-size: 12px;
+    }
+    .bottle .bottle_txt p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-}
 
+    .navigation {
+        height: 100px;
+    }
+
+    .hamburger {
+        background: url("../img/hamburger_24.png");
+        width: 24px;
+        height: 24px;
+    }
+
+    .cross {
+        background: url("../img/hamburger_active_24.png");
+        height: 24px;
+        width: 24px;
+    }
+
+    .header_txt .left_line h2 {
+        font-size: 36px;
+    }
+
+    .header_txt .left_line h4 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .header_txt p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .header_txt .order_now {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .header_txt .watch_txt {
+        padding-left: 115px;
+        margin-top: 37px;
+        font-size: 12px;
+    }
+
+    .menu li {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .menu li:hover {
+        padding: 12px 0;
+    }
+
+    /* Bottle */
+    .bottle {
+        height: 400px;
+        margin-top: -240px;
+    }
+    .bottle .bottle_txt {
+        margin-top: 175px;
+    }
+
+    .bottle .bottle_txt .blue_line {
+        border-left: 3px solid #18a3dd;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    .bottle .bottle_txt span {
+        font-size: 10px;
+    }
+
+    .bottle .bottle_txt p {
+        font-size: 10px;
+        margin-top: -1px;
+    }
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    header {
+        height: 400px;
+    }
+    .navigation {
+        height: 85px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .header_txt {
+        margin-top: 35px;
+    }
+    .header_txt .order_now {
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    .header_txt .watch_txt {
+        padding-left: 30px;
+        margin-top: 60px;
+    }
+    .hamburger {
+        margin-top: 30px;
+    }
+    .cross {
+        margin-top: 30px;
+    }
+    .menu {
+        width: 100%;
+        left: 0;
+        top: 85px;
+    }
+    /* Bottle */
+    .bottle {
+        margin-top: -60px;
+    }
+    .bottle .bottle_txt {
+        margin-top: 175px;
+    }
+    .bottle .bottle_txt .blue_line {
+        padding-left: 5px;
+        font-size: 28px;
+        margin-bottom: -2px;
+    }
+    .bottle .bottle_txt span {
+        font-size: 8px;
+    }
+    .bottle .bottle_txt p {
+        font-size: 8px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+    header {
+        height: 350px;
+    }
+    .hamburger {
+        background: url("../img/hamburger_20.png");
+        width: 20px;
+        height: 20px;
+    }
+    .cross {
+        background: url("../img/hamburger_active_20.png");
+        height: 20px;
+        width: 20px;
+    }
+    .header_txt .left_line {
+        padding-left: 10px;
+    }
+    .header_txt .left_line h2 {
+        font-size: 22px;
+    }
+    .header_txt .left_line h4 {
+        font-size: 10px;
+    }
+    .header_txt p {
+        font-size: 10px;
+    }
+    .header_txt .order_now {
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .header_txt .watch_txt {
+        text-align: center;
+        padding-left: 10px;
+        margin-top: 45px;
+    }
+
+    /* Bottle */
+    .bottle {
+        margin-top: -120px;
+    }
+    .bottle .bottle_txt {
+        margin-top: 180px;
+    }
+    .bottle .bottle_txt .blue_line {
+        font-size: 18px;
+    }
+
 }
