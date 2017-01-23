@@ -11,7 +11,6 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/style_slider.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
@@ -25,6 +24,16 @@
     <div class="container">
         <div class="row">
             <nav class="navigation">
+                <div class="menu">
+                    <ul>
+                        <a href="#features"><li>FETURES | WE OFFER</li></a>
+                        <a href="#real_man"><li>REAL MAN | REAL RESULTS</li></a>
+                        <a href="#testimonials"><li>CLIENT | TESTIMONIALS</li></a>
+                        <a href="#a_supplement"><li>SUPPLEMENT | FACTS</li></a>
+                        <a href="#subscribe"><li>SUBSCRIBE | FOR TIPS & OFFERS</li></a>
+                        <a href="#inquire"><li>INQUIRE YOUR ISSUE</li></a>
+                    </ul>
+                </div>
                 <div class="col-xs-7 col-sm-3 col-md-2 col-lg-2">
                     <div class="logo">
                         <a href="#">
@@ -53,17 +62,8 @@
         </div>
     </div>
     </header>
-    <div class="menu">
-        <ul>
-            <a href="#"><li>LINK ONE</li></a>
-            <a href="#"><li>LINK TWO</li></a>
-            <a href="#"><li>LINK THREE</li></a>
-            <a href="#"><li>LINK FOUR</li></a>
-            <a href="#"><li>LINK FIVE</li></a>
 
-        </ul>
-    </div>
-    <div class="bottle">
+    <div class="bottle" id="bottle">
         <div class="container">
             <div class="bottle_txt">
                 <div class="row">
@@ -86,46 +86,46 @@
             </div>
         </div>
     </div>
-    <div class="features">
+    <div class="features" id="features">
         <div class="container">
             <div class="features_title">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="h3_raleway">Fetures <span class="line_blue_span"></span> <span class="h3_light">We Offer</span></h3>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2 class="h3_raleway">Fetures <span class="line_blue_span"></span> <span class="h3_light">We Offer</span></h2>
                         <h5 class="h5_lato">Don’t forget to check these real success.</h5>
                     </div>
                 </div>
             </div>
             <div class="features_txt_img">
                 <div class="row">
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                         <div class="features_txt features_right_txt">
                             <div class="increased_energy">
                                 <span class="blue_line_features right_features "></span>
                                 <h3>Increased Energy</h3>
-                                <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
+                                <p class="features_txt_p margin_top_features">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
                             </div>
                             <div class="weight_loss features_top">
                                 <span class="blue_line_features right_features "></span>
                                 <h3>Weight Loss</h3>
-                                <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
+                                <p class="features_txt_p margin_top_features">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <img src="img/people.jpg" alt="People" class="features_img" />
+                    <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+                        <img src="img/people.jpg" alt="People" class="img-responsive" class="features_img" />
                     </div>
-                    <div class="col-md-4 col-lg-4">
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                         <div class="features_txt features_left_txt">
                             <div class="bone_builder">
                                 <span class="blue_line_features left_features "></span>
                                 <h3>Bone Builder</h3>
-                                <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
+                                <p class="features_txt_p margin_top_features">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
                             </div>
                             <div class="stress_release features_top">
                                 <span class="blue_line_features left_features "></span>
                                 <h3>Stress Release</h3>
-                                <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
+                                <p class="features_txt_p margin_top_features">Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonu</p>
                             </div>
                         </div>
                     </div>
@@ -133,133 +133,417 @@
             </div>
         </div>
     </div>
-    <div class="real_man">
+    <div class="real_man" id="real_man">
         <div class="container">
             <div class="real_man_txt">
                 <div class="row">
-                    <div class="col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h3 class="h3_raleway">Real Man <span class="line_blue_span"></span> <span class="h3_light">Real Results</span></h3>
                         <h5 class="h5_lato">Don’t forget to check these real success.</h5>
                     </div>
                 </div>
             </div>
             <div class="real_man_slider">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Обгортка для слайдів -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="img/real_man.jpg" alt="Real Man">
-                            <div class="carousel-caption">
-                                ...
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/real_man.jpg" class="" alt="Real Man">
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/real_man.jpg" class="" alt="Real Man">
+                                        <div class="carousel-caption">
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/real_man.jpg" class="" alt="Real Man" style="text-align: center;">
+                                        <div class="carousel-caption">
+                                            ...
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control " href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon slide_prev" aria-hidden="true"></span>
+                                    <span class="sr-only">Попередній</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon slide_next" aria-hidden="true"></span>
+                                    <span class="sr-only">Наступний</span>
+                                </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <img src="img/real_man.jpg" alt="Real Man">
-                            <div class="carousel-caption">
-                                ...
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="img/real_man.jpg" alt="Real Man" style="text-align: center;">
-                            <div class="carousel-caption">
-                                ...
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Управління -->
-                    <a class="carousel-control " href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon slide_prev" aria-hidden="true"></span>
-                        <span class="sr-only">Попередній</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon slide_next" aria-hidden="true"></span>
-                        <span class="sr-only">Наступний</span>
-                    </a>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <div class="container">
             <div class="testimonials_txt">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h3 class="h3_raleway white_txt">Client <span class="line_blue_span"></span> <span class="h3_light">TESTIMONIALS</span></h3>
                         <h5 class="h5_lato">We don’t just sell, we’re beloved too.</h5>
                     </div>
                 </div>
             </div>
 
-            <div role="tabpanel">
+            <div role="tabpanel" class="tab_testimonials">
 
                 <!-- Вкладки панелі -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane" id="profile">
+                    <div role="tabpanel" class="tab-pane" id="first_tab">
                         <div class="comment_client">
-                            <p class="comment_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper sus- cipit lobortis nisl ut aliquip. sed diam nonummy nibh euismod.</p>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                    <p class="comment_txt">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed diam nonummy nibh euismod.
+                                    </p>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="author_comment">
-                                    <div class="col-lg-1 col-lg-offset-5">
-                                        <img src="img/client.png" alt="Alena Parker" />
+                                    <div class="col-xs-2 col-xs-offset-3 col-sm-2 col-sm-offset-4 col-md-1 col-md-offset-5 col-lg-1 col-lg-offset-5">
+                                        <img src="img/client-1.png" class="img-responsive" alt="Alena Parker" />
                                     </div>
-                                    <div class="col-lg-2">
+                                    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
                                         <h5>Alena Parker</h5>
                                         <span>Sydney, Australia</span>
                                         <div class="vertical_line"></div>
                                     </div>
-                                    <div class="col-lg-offset-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active" id="second_tab">
+                        <div class="comment_client">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                    <p class="comment_txt">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed diam nonummy nibh euismod.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="author_comment">
+                                    <div class="col-xs-2 col-xs-offset-3 col-sm-2 col-sm-offset-4 col-md-1 col-md-offset-5 col-lg-1 col-lg-offset-5">
+                                        <img src="img/client-2.png" class="img-responsive" alt="Alena Parker" />
+                                    </div>
+                                    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                        <h5>Tom Simpson</h5>
+                                        <span>Sydney, Australia</span>
+                                        <div class="vertical_line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="third_tab">
+                        <div class="comment_client">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                    <p class="comment_txt">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minimveniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. sed diam nonummy nibh euismod.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="author_comment">
+                                    <div class="col-xs-2 col-xs-offset-3 col-sm-2 col-sm-offset-4 col-md-1 col-md-offset-5 col-lg-1 col-lg-offset-5">
+                                        <img src="img/client-3.png" class="img-responsive" alt="Alena Parker" />
+                                    </div>
+                                    <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                                        <h5>Maria Shevtchenko</h5>
+                                        <span>Lviv, Ukraine</span>
+                                        <div class="vertical_line"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div role="tabpanel" class="tab-pane active" id="home">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam beatae consequuntur
-                        dignissimos et expedita illo impedit ipsam maiores maxime minima, obcaecati officia omnis optio
-                        perferendis porro provident quia quibusdam quis quo soluta, tempore unde velit voluptas
-                        voluptates. Assumenda at eius id inventore quod quos rem sapiente tempore tenetur
-                        voluptates.</p>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="messages">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolore esse explicabo iusto porro,
-                        repellat tempora vitae. Distinctio magnam maiores maxime! Atque facilis modi praesentium
-                        provident, quam voluptatum. Ab asperiores, aspernatur cumque doloribus error eum hic laborum
-                        molestias nam quas quos sapiente sequi sunt ullam voluptate! A accusamus ad aspernatur autem
-                        beatae consequatur deserunt dolor ea earum et excepturi facere facilis impedit in molestiae
-                        neque nobis odit officiis omnis possimus quaerat quam quia, quis quod quos ratione repellat
-                        sapiente sequi similique soluta. Accusantium, eum expedita harum incidunt ipsam mollitia
-                        nesciunt officiis perspiciatis qui repudiandae unde, velit voluptas? Ab architecto consectetur
-                        deleniti dolore eius, facere illo labore laboriosam natus nesciunt non optio porro quos sit
-                        temporibus unde veniam veritatis voluptatem. Nulla!</p>
-                </div>
-            </div>
             <!-- Навігаційні елементи вкладок -->
-            <ul class="nav nav-tabs navigation_cpmment" role="tablist">
-                <li role="presentation" class="switch_testimonials" > <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-                </a></li>
-                <li role="presentation" class="switch_testimonials active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-                </a></li>
-                <li role="presentation" class="switch_testimonials" ><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-                </a></li>
-            </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-5 col-md-4 col-md-offset-5 col-lg-2 col-lg-offset-5">
+                            <ul class="nav nav-tabs navigation_comment" role="tablist">
+                                <li role="presentation" class="switch_testimonials" > <a href="#first_tab" aria-controls="first_tab" role="tab" data-toggle="tab">
+                                </a></li>
+                                <li role="presentation" class="switch_testimonials active"><a href="#second_tab" aria-controls="second_tab" role="tab" data-toggle="tab">
+                                </a></li>
+                                <li role="presentation" class="switch_testimonials" ><a href="#third_tab" aria-controls="third_tab" role="tab" data-toggle="tab">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
+    </div>
+    <div class="supplement" id="supplement">
+        <div class="container">
+            <div class="supplement_txt">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="h3_raleway">Supplement <span class="line_blue_span"></span> <span class="h3_light">Facts</span></h3>
+                        <h5 class="h5_lato">We’re brave enough to show what we use.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="supplement_body">
+                <div class="row">
+                    <div role="tabpanel">
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+                        <div class="ingredients">
+                            <div class="ingredients_block">
+                                <h4 class="ingredients_txt">ingredients <span>Per Serving</span></h4>
+                                <p class="right_txt">(MG)</p>
+                            </div>
+                            <!-- Навігаційні елементи вкладок -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation"><a href="#citrus_aurantium" aria-controls="citrus_aurantium" role="tab" data-toggle="tab">Citrus Aurantium <span class="right_span">100</span></a></li>
+                                <li role="presentation" class="active"><a href="#green_coffee_extract" aria-controls="green_coffee_extract" role="tab" data-toggle="tab">Green Coffee Extract <span class="right_span">72</span></a></li>
+                                <li role="presentation"><a href="#green_tea_extract" aria-controls="green_tea_extract" role="tab" data-toggle="tab">Green Tea Extract <span class="right_span">88</span></a></li>
+                                <li role="presentation"><a href="#guarana_extract" aria-controls="guarana_extract" role="tab" data-toggle="tab">Guarana Extract w/ 10% Caffeine <span class="right_span">4</span></a></li>
+                                <li role="presentation"><a href="#l_phenylalanine" aria-controls="l_phenylalanine" role="tab" data-toggle="tab">L-Phenylalanine <span class="right_span">67</span></a></li>
+                                <li role="presentation"><a href="#niacin" aria-controls="niacin" role="tab" data-toggle="tab">Niacin <span class="right_span">87</span></a></li>
+                                <li role="presentation"><a href="#red_pepper_extract" aria-controls="red_pepper_extract" role="tab" data-toggle="tab">Red Pepper Extract <span class="right_span">323</span></a></li>
+                                <li role="presentation"><a href="#vitamin" aria-controls="vitamin" role="tab" data-toggle="tab">Vitamin B6 <span class="right_span">8</span></a></li>
+                            </ul>
+                        </div>
+                            <a href="#"><button class="download_specs_btn">Download Specs <span class="right_txt_btn">(50kb)</span></button></a>
+                    </div>
+                        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
+                        <div class="description">
+                            <!-- Вкладки панелі -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane" id="citrus_aurantium">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Citrus Aurantium</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane active" id="green_coffee_extract">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Green Coffee Extract</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="green_tea_extract">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Green Tea Extract</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="guarana_extract">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Guarana Extract w/ 10% Caffeine</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="l_phenylalanine">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">L-Phenylalanine</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="niacin">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Niacin</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="red_pepper_extract">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Red Pepper Extract</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="vitamin">
+                                    <img src="img/green_coffee.jpg" alt="" class="img-responsive">
+                                    <div class="blue_line_description">
+                                        <h4 class="description_h4">Vitamin B6</h4>
+                                        <span class="description_subtext">72 mg</span>
+                                    </div>
+                                    <p class="description_p">Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="certifications hidden-xs">
+        <div class="container">
+            <div class="certifications_txt">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3>Certifications</h3>
+                        <p>We don’t sell craps, We’re certified.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certifications_img">
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                        <img src="img/cradle_to_cradle.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <img src="img/qcp.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <img src="img/nsf.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <img src="img/sgs.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <img src="img/geo_trust.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="a_supplement" id="a_supplement">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-sm-offset-7 col-md-5 col-md-offset-7 col-lg-4 col-lg-offset-7">
+                    <div class="a_supplement_txt">
+                        <div class="blue_line_a_suplement"></div>
+                        <h4>A Supplement</h4>
+                        <p class="price">$29 USD</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipis cing elit, sed diam nonummy nibh euismod tincidu nt ut laoreet.</p>
+                        <a href="#"><button class="order_now">order now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe" id="subscribe">
+        <div class="container">
+            <div class="subscribe_txt">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="h3_raleway">Subscribe <span class="line_blue_span"></span> <span class="h3_light">for tips & Offers</span></h3>
+                        <p class="h5_lato">We regularly knock our customers with useful tips and offers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-11 col-sm-offset-1 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                    <div class="subscribe_form">
+                        <form action= "#" method="post">
+                            <input type= "text" name= "email" placeholder="Enter Your Email" class="email_subscribe input">
+                            <input type= "submit" value= "Subscribe" class="submit_subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
 
+        </div>
 
+    </div>
+    <div class="inquire" id="inquire">
+        <div class="container">
+            <div class="inquire_txt">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="h3_raleway">Inquire <span class="line_blue_span"></span> <span class="h3_light">Your Issue </span></h3>
+                        <h5 class="h5_lato">We’re brave enough to show what we use.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="inquire_form">
 
+                <form action="#" method="post" name="respond" id="respond">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <p>
+                                <input type="text" name="author" id="author" value="" size="25" placeholder="Name" class="fill" />
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <p>
+                                <input type="text" name="email" id="email" value="" size="25" placeholder="Email" class="fill form_mt" />
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subject_form">
+                        <div class="row">
+                        <div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                            <p>
+                                <textarea  name="comment" id="comment" cols="65" rows="8" placeholder="Subject" class="fill_subject"></textarea>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="send_inquire_form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p><input name="submit" type="submit" id="submit" value="Send" class="send_inquire_btn" />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                    <div class="footer_left">
+                        <p class="copyright">© Amazon LLC. All Rights Reserved</p>
+                        <ul>
+                            <a href="#"><li>About</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Terms</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Privacy</li></a>
+                            <li>|</li>
+                            <a href="#"><li>Contact</li></a>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+                <div class="col-xs-12 col-sm-4 col-sm-offset-3 col-md-3 col-md-offset-5 col-lg-3 col-lg-offset-5">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook icon_social" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter icon_social" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play icon_social" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-dribbble icon_social" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/slider.js"></script>
+
 </body>
 </html>

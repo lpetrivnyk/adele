@@ -2,16 +2,19 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
+    /* Header */
     .header_txt {
         margin-top: 200px;
     }
+
+    /* Bottle */
     .bottle .bottle_txt .blue_line {
         font-size: 50px;
     }
     .bottle .bottle_txt span, .bottle .bottle_txt p {
         font-size: 14px;
     }
-    /* Bottle */
     .bottle {
         height: 450px;
         margin-top: -120px;
@@ -19,19 +22,48 @@
     .bottle .bottle_txt {
         margin-top: 200px;
     }
+
+    /* Testimonials */
+    .testimonials {
+        margin-top: 100px;
+    }
+
+    /* Supplement */
+    .supplement .supplement_body .download_specs_btn {
+        width: 350px;
+    }
+
+    /* A Supplement */
+    .a_supplement {
+        height: 550px;
+    }
+
+    /* Subscribe */
+    .subscribe .subscribe_form {
+        margin-top: 25px;
+        margin-left: 52px;
+    }
+
+    /* Inquire */
+    .inquire {
+        height: 600px;
+    }
+    .inquire .inquire_txt {
+        margin-top: 55px;
+    }
+    .inquire .inquire_form .send_inquire_form .send_inquire_btn {
+        margin-top: 35px;
+    }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    header {
-        background: url("../img/header.jpg") no-repeat center;
-        background-color: #fafcfc;
-        -webkit-background-size: contain;
-        background-size: contain;
-        height: 830px;
-        width:100%;
-    }
 
+    /* Header */
+    header {
+        height: 830px;
+    }
     .header_txt .left_line h2 {
         font-size: 48px;
     }
@@ -52,7 +84,8 @@
         margin-top: 46px;
         font-size: 14px;
     }
-/* Bottle */
+
+    /* Bottle */
     .bottle {
         height: 400px;
         margin-top: -85px;
@@ -70,61 +103,95 @@
     }
     .bottle .bottle_txt p {
         font-size: 12px;
-        margin-top: 0px;
+        margin-top: 0;
     }
+
+    /* Testimonials */
+    .testimonials {
+        margin-top: 50px;
+    }
+    .testimonials .testimonials_txt {
+        margin-top: 180px;
+    }
+    .testimonials .comment_client {
+        height: 180px;
+        margin-top: 16px;
+    }
+    .testimonials .comment_client .comment_txt {
+        font-size: 12px;
+    }
+    .navigation_comment {
+        margin-top: -20px;
+    }
+
+    /* Subscribe */
+    .subscribe .subscribe_form .email_subscribe {
+        margin-left: 0;
+    }
+    .subscribe .subscribe_form {
+        margin-top: 34px;
+        margin-left: 50px;
+    }
+
+    /* Supplement */
+    .supplement .supplement_body .download_specs_btn {
+        padding: 15px 25px;
+    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+    /* Fonts */
+    .h3_raleway {
+        font-size: 26px;
+    }
+    .h5_lato {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    /* Header */
     .navigation {
         height: 100px;
     }
-
     .hamburger {
         background: url("../img/hamburger_24.png");
         width: 24px;
         height: 24px;
     }
-
     .cross {
         background: url("../img/hamburger_active_24.png");
         height: 24px;
         width: 24px;
     }
-
     .header_txt .left_line h2 {
         font-size: 36px;
     }
-
     .header_txt .left_line h4 {
         font-size: 16px;
         margin-top: 5px;
     }
-
     .header_txt p {
         margin-top: 15px;
         font-size: 12px;
     }
-
     .header_txt .order_now {
         width: 100px;
         height: 35px;
         font-size: 12px;
         margin-top: 30px;
     }
-
     .header_txt .watch_txt {
         padding-left: 115px;
         margin-top: 37px;
         font-size: 12px;
     }
-
     .menu li {
         padding: 10px 0;
         font-size: 12px;
     }
-
     .menu li:hover {
         padding: 12px 0;
     }
@@ -137,25 +204,136 @@
     .bottle .bottle_txt {
         margin-top: 175px;
     }
-
     .bottle .bottle_txt .blue_line {
         border-left: 3px solid #18a3dd;
         font-size: 36px;
         margin-bottom: 5px;
     }
-
     .bottle .bottle_txt span {
         font-size: 10px;
     }
-
     .bottle .bottle_txt p {
         font-size: 10px;
         margin-top: -1px;
     }
+
+    /* Fetures */
+    .features .features_txt_img {
+        margin-top: 20px;
+    }
+    .features h3 {
+        font-size: 20px;
+    }
+    .features .right_features {
+        padding-left: 10px;
+        margin-top: 0;
+    }
+    .features .left_features {
+        margin-right: 10px;
+        margin-top: 0;
+    }
+    .features .features_txt_p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* Real Man */
+    .real_man_slider {
+        margin-top: 25px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        margin-top: 10px;
+    }
+    .testimonials .comment_client .comment_txt {
+        font-size: 18px;
+    }
+    .testimonials .navigation_comment {
+        margin-top: 20px;
+    }
+
+    /* Supplement */
+    .supplement {
+        height: 100%;
+    }
+    .supplement .supplement_body .description {
+        text-align: center;
+    }
+
+    /* Certifications */
+    .certifications {
+        margin-top: 50px;
+    }
+
+    /* A Supplement */
+    .a_supplement .a_supplement_txt h4 {
+        font-size: 26px;
+    }
+    .a_supplement .a_supplement_txt .price {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .a_supplement .a_supplement_txt .blue_line_a_suplement {
+        border-right: 5px solid #18a3dd;
+        height: 35px;
+        margin-top: 3px;
+        float: left;
+        margin-right: 15px;
+    }
+    .a_supplement .a_supplement_txt p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .a_supplement .a_supplement_txt .order_now {
+        font-size: 14px;
+        height: 40px;
+        width: 140px;
+        margin-top: 25px;
+    }
+
+    /* Subscribe */
+    .subscribe .subscribe_form .email_subscribe {
+        margin-left: 20px;
+        height: 40px;
+        width: 450px;
+        font-size: 14px;
+    }
+    .subscribe .subscribe_form .submit_subscribe {
+        height: 40px;
+        width: 120px;
+        top: 0;
+        left: -120px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width : 767px) {
+    /* A Supplement */
+    .a_supplement {
+        height: 400px;
+        background: #ffffff;
+    }
+    .a_supplement .a_supplement_txt {
+        margin-top: 100px;
+        text-align: center;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    /* Fonts */
+    .h3_raleway {
+        font-size: 22px;
+    }
+    .h5_lato {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* Header */
     header {
         height: 400px;
     }
@@ -167,6 +345,18 @@
     }
     .header_txt {
         margin-top: 35px;
+    }
+    .header_txt .left_line {
+        padding-left: 20px;
+    }
+    .header_txt .left_line h2 {
+        font-size: 30px;
+    }
+    .header_txt .left_line h4 {
+        font-size: 14px;
+    }
+    .header_txt p {
+        margin-top: 10px;
     }
     .header_txt .order_now {
         margin-top: 15px;
@@ -187,28 +377,173 @@
         left: 0;
         top: 85px;
     }
+
     /* Bottle */
     .bottle {
         margin-top: -60px;
+        height: 200px;
     }
     .bottle .bottle_txt {
-        margin-top: 175px;
+        margin-top: 80px;
     }
     .bottle .bottle_txt .blue_line {
         padding-left: 5px;
-        font-size: 28px;
+        font-size: 24px;
         margin-bottom: -2px;
     }
-    .bottle .bottle_txt span {
-        font-size: 8px;
-    }
     .bottle .bottle_txt p {
-        font-size: 8px;
+        font-size: 9px;
     }
+
+    /* Features */
+    .features .features_txt_img img {
+        margin-top: 85px;
+    }
+    .features .features_txt {
+        margin-top: 0;
+    }
+    .features h3 {
+        font-size: 15px;
+    }
+    .features .blue_line_features {
+        height: 30px;
+        border-right: 3px solid #18a3dd;
+    }
+    .features .features_txt_p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .features .margin_top_features {
+        margin-top: 15px;
+    }
+    .features .features_top {
+        margin-top: 15px;
+    }
+
+    /* Real Man */
+    .real_man .real_man_txt {
+        margin-top: 50px;
+    }
+    .real_man_slider {
+        height: 270px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        height: 450px;
+    }
+    .testimonials .testimonials_txt {
+        margin-top: 100px;
+    }
+    .navigation_comment {
+        margin-top: 15px;
+    }
+    .testimonials .comment_client .comment_txt {
+        font-size: 14px;
+    }
+
+    /* Supplement */
+    .supplement .supplement_txt {
+        margin-top: 45px;
+    }
+    .supplement .supplement_body .ingredients .ingredients_block .ingredients_txt {
+        font-size: 18px;
+    }
+    .supplement .supplement_body .ingredients .ingredients_block .ingredients_txt span {
+        font-size: 14px;
+    }    .supplement .supplement_body .ingredients .ingredients_block .right_txt {
+        font-size: 14px;
+    }
+    .supplement .supplement_body .description .description_p {
+        margin-top: 20px;
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    /* A Supplement */
+    .a_supplement {
+        height: 350px;
+    }
+    .a_supplement .a_supplement_txt h4 {
+        font-size: 22px;
+    }
+    .a_supplement .a_supplement_txt .price {
+        font-size: 16px;
+        text-align: center;
+    }
+    .a_supplement .a_supplement_txt p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 12px;
+
+    }
+    .a_supplement .a_supplement_txt .order_now {
+        font-size: 14px;
+        height: 40px;
+        width: 140px;
+        margin-top: 15px;
+
+    }
+
+    /* Subscribe */
+    .subscribe {
+        height: 300px;
+    }
+    .subscribe .subscribe_txt {
+        margin-top: 55px;
+    }
+    .subscribe .subscribe_form .email_subscribe {
+        height: 30px;
+        width: 280px;
+        padding: 10px;
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .subscribe .subscribe_form .submit_subscribe {
+        height: 30px;
+        width: 100px;
+        top: -30px;
+        left: 180px;
+        font-size: 12px;
+    }
+    .supplement .supplement_body .download_specs_btn {
+        margin-left: 15px;
+    }
+    .description {
+        margin-top: 40px;
+    }
+    .tab-pane img {
+        margin-left: 35%;
+    }
+
+    /* Inquire */
+    .inquire .inquire_form .form_mt {
+        margin-top: 20px;
+    }
+
+    /* Footer */
+    footer {
+        height: 100%;
+        text-align: center;
+    }
+    footer .footer_left {
+        margin-top: 15px;
+    }
+    footer .footer_left .copyright {
+        margin-bottom: 5px;
+    }
+    footer .social {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 380px) {
+
+    /* Header */
     header {
         height: 350px;
     }
@@ -249,13 +584,53 @@
 
     /* Bottle */
     .bottle {
-        margin-top: -120px;
+        margin-top: -100px;
     }
     .bottle .bottle_txt {
-        margin-top: 180px;
+        margin-top: 80px;
     }
     .bottle .bottle_txt .blue_line {
         font-size: 18px;
     }
 
+    /* Features */
+    .features {
+        margin-top: 0;
+    }
+    .features .features_txt h3 {
+        font-size: 13px;
+        padding-top: 7px;
+    }
+
+    /* Testimonials */
+    .testimonials .testimonials_txt {
+        margin-top: 70px;
+    }
+
+    /* Supplement */
+    .supplement .supplement_body .download_specs_btn {
+        margin-left: 5px;
+        width: 300px;
+    }
+
+    /* Subscribe */
+    .subscribe .subscribe_form {
+        margin-left: 30px;
+    }
+
 }
+
+@media only screen and (max-width : 320px) {
+
+    /* Testimonials */
+    .testimonials .navigation_comment {
+        margin-left: -15px;
+    }
+    /* Subscribe */
+    .subscribe .subscribe_form {
+        margin-left: 5px;
+    }
+
+}
+
+

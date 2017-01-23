@@ -14,8 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 /* Header */
 header{
-    background: url("../img/header.jpg") no-repeat center;
-    background-color: #fafcfc;
+    background: url("../img/header.jpg") no-repeat center #fafcfc;
     -webkit-background-size: contain;
     background-size: contain;
     height: 884px;
@@ -51,7 +50,7 @@ header{
     margin-top: 45px;
     margin-right: 30px;
     position:absolute;
-    top:0px;
+    top:0;
     right:0;
     border:0;
     cursor:pointer;
@@ -67,7 +66,8 @@ header{
     background: #fafcfc;
     position: absolute;
     text-align: center;
-    top: 120px;font-family: 'Lato';
+    top: 120px;
+    font-family: "Lato";
 }
 .menu ul {
     margin: 0; padding: 0;
@@ -87,7 +87,7 @@ header{
     border-bottom:#ebebeb 1px solid;}
 .menu ul li a {
     text-decoration:none;
-    margin: 0px;
+    margin: 0;
     color:#fff;
 }
 .menu ul li a:hover {
@@ -144,12 +144,10 @@ header{
     border-radius: 25px;
     margin-top: 48px;
     float: left;
-    transition: 1.5s;
+    transition: .3s;
 }
 .header_txt .order_now:hover {
-    -webkit-transform: rotateZ(-10deg);
-    -ms-transform: rotateZ(-10deg);
-    transform: rotateZ(-10deg);
+    box-shadow: 0 0 0 2px #18a3dd inset, 0 0 0 4px white inset;
 }
 .header_txt .watch_txt {
     padding-left: 220px;
@@ -258,10 +256,12 @@ header{
     font-size: 30px;
     font-family: 'Raleway ExtraBold';
     color: #333740;
+    text-transform: uppercase;
 }
 .h3_light {
     font-family: 'Raleway Light';
     margin-left: 20px;
+    text-transform: uppercase;
 }
 .h5_lato {
     margin-top: 20px;
@@ -304,12 +304,13 @@ header{
     background-image: none !important;
 }
 
-
+/* testimonials */
 .testimonials {
     background: url("../img/testimonials.jpg") no-repeat center;
+    background-color: #0e0815;
     height: 606px;
-    -webkit-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    background-size: cover;
     width: 100%;
     margin-top: 115px;
 }
@@ -321,34 +322,34 @@ header{
     color: #ffffff !important;
 }
 .switch_testimonials {
-    background: url("../img/testimonials_no_active.png") no-repeat center center !important;
+    background: url("../img/testimonials_no_active.png") no-repeat center center;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.testimonials .tab_testimonials .nav-tabs li.active a, .testimonials .tab_testimonials .nav-tabs li.active a:focus, .testimonials .tab_testimonials .nav-tabs li.active a:hover {
     border: none;
     background: url("../img/testimonials_active.png") no-repeat center center;
 }
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
+.testimonials .tab_testimonials .nav li a:focus, .testimonials .tab_testimonials .nav li a:hover {
+
     border: none;
     background: url("../img/testimonials_active.png") no-repeat center center;
 }
-.nav-tabs {
+.testimonials .tab_testimonials .nav-tabs {
     border-bottom: none;
-    margin-left: 45%;
+
 }
-.navigation_cpmment {
-    margin-top: 60px;
+.navigation_comment {
+    margin-top: 20px;
 }
 .comment_client {
     height: 180px;
-    margin-top: 70px;
+    margin-top: 60px;
     text-align: center;
 }
 .comment_client .comment_txt {
     color: #a9a9a9;
     font-family: 'Lato Light Italic';
     font-size: 16px;
-    padding: 0 210px;
+
 }
 .comment_client .author_comment {
     margin-top: 30px;
@@ -371,4 +372,358 @@ header{
     width: 35px;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+/* supplement */
+.supplement {
+    height: 853px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.supplement .supplement_txt {
+    margin-top: 95px;
+    text-align: center;
+}
+.supplement .supplement_body {
+    margin-top: 70px;
+}
+.supplement .supplement_body .ingredients .ingredients_block {
+    border-bottom: 5px solid #333740;
+    padding-bottom: 15px;
+    color: #333740;
+}
+.supplement .supplement_body .ingredients .ingredients_block .ingredients_txt {
+    text-transform: uppercase;
+    font-family: 'Lato Black';
+    font-size: 24px;
+}
+.supplement .supplement_body .ingredients .ingredients_block .ingredients_txt span {
+    font-size: 16px;
+    float: right;
+}
+.supplement .supplement_body .ingredients .ingredients_block .right_txt {
+    text-align: right;
+    font-family: 'Lato Light';
+    font-size: 16px;
+}
+.supplement .supplement_body .ingredients .right_span {
+    float: right;
+}
+.supplement .supplement_body .ingredients .nav-tabs {
+    border-bottom: none;
+}
+.supplement .supplement_body .ingredients ul li {
+    float: none;
+    z-index: 2;
+    cursor: default;
+    transition: .5s;
+    border-bottom: 1px solid #ebebeb;
+}
+.supplement .supplement_body .ingredients .nav li:focus, .supplement .supplement_body .ingredients .nav li:hover {
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    padding: 5px;
+}
+
+.supplement .supplement_body .ingredients ul li a {
+    font-family: 'Lato Light';
+    font-size: 16px;
+    color: #333740;
+}
+.supplement .supplement_body .ingredients .nav li a:focus, .supplement .supplement_body .ingredients .nav li a:hover {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #d7d7d7;
+    border-radius: 0;
+    cursor: default;
+}
+.supplement .supplement_body .ingredients .nav-tabs li.active a, .supplement .supplement_body .ingredients .nav-tabs li.active a:focus, .supplement .supplement_body .ingredients .nav-tabs li.active a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+.supplement .supplement_body .description .blue_line_description {
+    border-left: 5px solid #18a3dd;
+    border-radius: 2px;
+    height: 35px;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.supplement .supplement_body .description .blue_line_description .description_h4 {
+    font-family: 'Raleway Bold';
+    font-size: 16px;
+    color: #333740;
+    text-transform: uppercase;
+}
+.supplement .supplement_body .description .description_p {
+    margin-top: 30px;
+    font-family:'Lato Light';
+    font-size: 16px;
+    color: #666666;
+    padding-right: 10px;
+}
+.supplement .supplement_body .download_specs_btn {
+    background-color: #18a3dd;
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    width: 455px;
+    text-align: left;
+    margin-top: 50px;
+    transition: .3s linear;
+}
+.supplement .supplement_body .download_specs_btn:hover {
+    box-shadow: 0 0 0 2px #18a3dd inset, 0 0 0 4px white inset;
+}
+.supplement .supplement_body .download_specs_btn .right_txt_btn {
+    float: right;
+    font-family: 'Lato Light';
+}
+
+/* Certifications */
+.certifications {
+    height: 368px;
+    background: #f1f4f5;
+}
+.certifications .certifications_txt {
+    text-align: center;
+}
+
+.certifications .certifications_txt h3 {
+    font-family: 'Raleway ExtraBold';
+    font-size: 30px;
+    color: #333740;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+.certifications .certifications_txt p {
+    font-family: 'Lato Light';
+    font-size: 16px;
+    color: #83888f;
+}
+.certifications .certifications_img {
+    margin-top: 55px;
+    text-align: center;
+}
+
+/*A Supplement */
+.a_supplement {
+    background: url("../img/banner.jpg") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    height: 634px;
+    width: 100%;
+}
+.a_supplement .a_supplement_txt {
+    margin-top: 195px;
+    color: #333740;
+}
+.a_supplement .a_supplement_txt .blue_line_a_suplement {
+    border-right: 6px solid #18a3dd;
+    border-radius: 2px;
+    height: 40px;
+    width: 1px;
+    margin-top: 3px;
+    float: left;
+    margin-right: 25px;
+}
+.a_supplement .a_supplement_txt h4 {
+    font-family: 'Raleway Bold';
+    font-size: 30px;
+
+}
+.a_supplement .a_supplement_txt .price {
+    font-family: 'Lato Light';
+    font-size: 20px;
+    margin-top: 8px;
+}
+.a_supplement .a_supplement_txt p {
+    font-family: 'Lato Light';
+    font-size: 16px;
+    color: #666666;
+    margin-top: 35px;
+}
+.a_supplement .a_supplement_txt .order_now {
+    height: 50px;
+    width: 180px;
+    text-transform: uppercase;
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #18a3dd;
+    border: none;
+    border-radius: 25px;
+    margin-top: 35px;
+    transition: .3s;
+}
+.a_supplement .a_supplement_txt .order_now:hover {
+    box-shadow: 0 0 0 2px #18a3dd inset, 0 0 0 4px white inset;
+}
+
+/* Subscribe */
+.subscribe {
+    height: 402px;
+    background: url("../img/banner_sub.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+.subscribe .subscribe_txt {
+    margin-top: 85px;
+    text-align: center;
+}
+.subscribe .subscribe_txt h3 {
+    color: #e5e5e5;
+}
+.subscribe .subscribe_txt p {
+    color: #767a7d;
+}
+.subscribe .subscribe_form {
+    margin-top: 34px;
+}
+.subscribe .subscribe_form .email_subscribe {
+    height: 50px;
+    width: 515px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 36px;
+    outline: none;
+    font-size: 16px;
+}
+.subscribe .subscribe_form .submit_subscribe {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: -50px;
+    left: 365px;
+    background-color: #18a3dd;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    transition: .3s;
+}
+.subscribe .subscribe_form .submit_subscribe:hover {
+    box-shadow: 0 0 0 2px #18a3dd inset, 0 0 0 4px white inset;
+}
+
+/* Inquire */
+.inquire {
+    height: 700px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.inquire .inquire_txt {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.inquire .inquire_form {
+    text-align: center;
+    margin-top: 70px;
+    color: #ababab;
+}
+
+.inquire .inquire_form .fill {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: 'Lato Light';
+    font-size: 16px;
+
+}
+
+.inquire .inquire_form .subject_form {
+    margin-top: 40px;
+}
+.inquire .inquire_form .subject_form .fill_subject {
+    border-top: none;
+    border-bottom: 1px solid #ebebeb;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-family: 'Lato Light';
+    font-size: 16px;
+}
+
+.fill_subject::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    border-bottom: 1px solid #ebebeb;
+}
+.fill_subject::-moz-placeholder { /* Firefox 19+ */
+    border-bottom: 1px solid #ebebeb;
+}
+.fill_subject:-ms-input-placeholder { /* IE 10+ */
+    border-bottom: 1px solid #ebebeb;
+}
+.fill_subject:-moz-placeholder { /* Firefox 18- */
+    border-bottom: 1px solid #ebebeb;
+}
+
+.inquire .inquire_form .send_inquire_form .send_inquire_btn {
+    height: 50px;
+    width: 150px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #18a3dd;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Lato Bold';
+    font-size: 16px;
+    transition: .3s;
+}
+.inquire .inquire_form .send_inquire_form .send_inquire_btn:hover {
+    box-shadow: 0 0 0 2px #18a3dd inset, 0 0 0 4px white inset;
+}
+.inquire .inquire_form input {
+    width: 100%;
+
+}
+textarea {
+    width: 100%;
+    height: 170px;
+    resize: none;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f4f5;
+    height: 155px;
+    width: 100%;
+}
+
+footer .footer_left, footer .footer_left a {
+    font-family: 'Lato Light';
+    color: #666666;
+    font-size: 14px;
+    margin-top: 45px;
+    text-decoration: none;
+}
+footer .footer_left .copyright {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer .footer_left ul li {
+    display: inline;
+    padding: 0 5px;
+}
+footer .footer_left ul a:hover {
+    font-weight: bold;
+}
+footer .social {
+    margin-top: 70px;
+}
+footer .social .icon_social {
+    color: #666666;
+    padding: 0 15px;
+    text-align: right;
+    font-size: 20px;
 }
